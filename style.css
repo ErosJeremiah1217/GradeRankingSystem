@@ -1,0 +1,91 @@
+*
+
+body {
+    background-image: url("feu.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50cm;
+    
+    
+}
+
+.piyu{
+    
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    position: center;
+    margin: auto;
+    background-color:gold;
+}
+
+div.box{
+    background-color: seagreen;
+    width: 500px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    font-family:Verdana;
+    
+    
+    
+}
+
+.form{
+    
+    width: 500px;
+    padding: 20px;
+    margin: auto;  
+    font-weight: bolder;
+}
+
+.button {
+    padding: 5px 30px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: white;
+    border: none;
+    border-radius: 1px;
+    
+    color: black;
+  }
+  
+  .button:hover {background-color: yellow}
+  
+  .button:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+  }
+
+.logo{
+  position: absolute;
+  left: 100px;
+  top: 100px;    
+  width: 10cm;
+  height: 12cm;
+  opacity: 80%;
+}
+
+.itam{
+    position: absolute;
+    right: 100px;
+    top: 100px;    
+    width: 10cm;
+    height: 12cm;
+    opacity: 80%;
+    
+  }
+.line{
+    width: 10cm;
+}
+
+.result{
+    background-color: gold;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
